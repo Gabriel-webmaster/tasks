@@ -1,6 +1,6 @@
 import { Footer } from "./assets/components/footer"
 import { Header } from "./assets/components/header"
-import { Main } from "./assets/components/main"
+import { ListaDeTarefas } from "./assets/components/main"
 
 function App() {
   
@@ -10,7 +10,7 @@ function App() {
       <Header/>
       
       <Footer/>
-      <Main/>
+     <ListaDeTarefas/>
     </div>
   )
 }
